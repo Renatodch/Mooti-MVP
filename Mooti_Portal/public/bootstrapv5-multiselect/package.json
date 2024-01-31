@@ -1,0 +1,71 @@
+{
+  "_from": "bootstrapv5-multiselect",
+  "_id": "bootstrapv5-multiselect@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-GyiMaLAT5IpHODS0Dtsk5FwhKASb9lgGSh/kDvOpVR0bCTGp58vvS2VMp1rcAd7XH8h9HNnhyW8o36bBvgSzKg==",
+  "_location": "/bootstrapv5-multiselect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrapv5-multiselect",
+    "name": "bootstrapv5-multiselect",
+    "escapedName": "bootstrapv5-multiselect",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrapv5-multiselect/-/bootstrapv5-multiselect-0.0.2.tgz",
+  "_shasum": "79626ad527fa1946ed2ff7fbe0eefa5fe391e5c3",
+  "_spec": "bootstrapv5-multiselect",
+  "_where": "C:\\Users\\Renato\\Desktop\\temp\\front",
+  "author": {
+    "name": "Lukete Henrique"
+  },
+  "bugs": {
+    "url": "https://github.com/luketevl/bootstrap-multiselect/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": ">= 2.2.4"
+  },
+  "deprecated": false,
+  "description": "JQuery multiselect plugin based on Twitter Bootstrap v5.",
+  "devDependencies": {
+    "jasmine-core": "^2.7.0",
+    "karma": "*",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "*",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "*"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "homepage": "https://github.com/luketevl/bootstrap-multiselect/",
+  "keywords": [
+    "js",
+    "css",
+    "less",
+    "bootstrap",
+    "jquery",
+    "multiselect"
+  ],
+  "license": "Apache License, Version 2.0",
+  "main": "dist/js/bootstrap-multiselect.js",
+  "name": "bootstrapv5-multiselect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luketevl/bootstrap-multiselect.git"
+  },
+  "scripts": {
+    "test": "karma start tests/karma.conf.js --single-run"
+  },
+  "types": "./types/index.d.ts",
+  "version": "0.0.2"
+}

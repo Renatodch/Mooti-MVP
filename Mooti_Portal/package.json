@@ -1,0 +1,60 @@
+{
+  "name": "cowapp",
+  "version": "1.0.0",
+  "description": "simple front",
+  "main": "index.js",
+  "module": "commonjs",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "server": "nodemon server.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.0.5",
+    "@amcharts/amcharts5-fonts": "^5.0.1",
+    "@amcharts/amcharts5-geodata": "^5.0.2",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "bootstrapv5-multiselect": "0.0.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.5.1",
+    "datatables.net-bs5": "^1.11.3",
+    "dotenv": "^16.0.3",
+    "dotenv-webpack": "^8.0.1",
+    "express": "^4.18.2",
+    "firebase": "^9.13.0",
+    "firestore": "^1.1.6",
+    "font-awesome": "^4.7.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jquery": "^3.6.0",
+    "knockout": "^3.5.1",
+    "mini-css-extract-plugin": "^2.4.5",
+    "socket.io-client": "^4.5.3",
+    "style-loader": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renatodch/CowFrontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Renatodch/CowFrontend/issues"
+  },
+  "homepage": "https://github.com/Renatodch/CowFrontend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "@types/jquery": "^3.5.14",
+    "babel-loader": "^8.2.5",
+    "react-hot-loader": "^4.13.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

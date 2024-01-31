@@ -1,0 +1,40 @@
+---
+version: "2.12"
+services:
+  apigateway:
+    image: mycontainers94.azurecr.io/mooti-apigateway
+    container_name: mooti-apigateway
+    hostname: mooti-apigateway
+    build: ./Mooti_ApiGateway
+    ports:
+      - 8888:8888
+      - 8765:8765
+      - 8764:8764
+      - 8777:8777
+    command: node /app/build/index.js #https://0b9d-179-6-166-17.ngrok.io
+    environment:
+      - URL_APIGATEWAY=20.124.63.224  #http://mooti-apigateway  mooti-apigateway.eastus.azurecontainer.io
+      - URL_USER=mooti-user  
+      - URL_PARAMETER=mooti-parameter 
+  parameter:
+    image: mycontainers94.azurecr.io/mooti-parameter
+    container_name: mooti-parameter
+    hostname: mooti-parameter
+    build: ./Mooti_Parameter
+    ports:
+      - 8004:8004
+  user:
+    image: mycontainers94.azurecr.io/mooti-user
+    container_name: mooti-user
+    hostname: mooti-user
+    build: ./Mooti_User
+    ports:
+      - 8003:8003
+
+  portal:
+    image: mycontainers94.azurecr.io/portal
+    build: ./Mooti_Portal
+    ports:
+      - 8080:8080
+    environment:
+      - URL_APIGATEWAY=mooti-apigateway

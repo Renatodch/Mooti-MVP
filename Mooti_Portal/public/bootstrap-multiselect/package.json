@@ -1,0 +1,73 @@
+{
+  "_from": "bootstrap-multiselect@^1.1.0",
+  "_id": "bootstrap-multiselect@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-d6njSMqLi488eo0rYx8QCN47zTZVsNm3s3dEd1xvd+NMalShYDpvIQ1m8JfUS8h9eroxSgPwkDWq8CX5x2udsQ==",
+  "_location": "/bootstrap-multiselect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "bootstrap-multiselect@^1.1.0",
+    "name": "bootstrap-multiselect",
+    "escapedName": "bootstrap-multiselect",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-1.1.0.tgz",
+  "_shasum": "5755e9992aa71330e45ec423213439f97b64b607",
+  "_spec": "bootstrap-multiselect@^1.1.0",
+  "_where": "R:\\GitRepositories\\CowFrontend",
+  "author": {
+    "name": "David Stutz"
+  },
+  "bugs": {
+    "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": ">= 2.2.4"
+  },
+  "deprecated": false,
+  "description": "JQuery multiselect plugin based on Twitter Bootstrap.",
+  "devDependencies": {
+    "jasmine-core": "^2.7.0",
+    "karma": "*",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "*",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "*"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "homepage": "http://davidstutz.github.io/bootstrap-multiselect/",
+  "keywords": [
+    "js",
+    "css",
+    "less",
+    "bootstrap",
+    "jquery",
+    "multiselect"
+  ],
+  "license": "Apache License, Version 2.0",
+  "main": "dist/js/bootstrap-multiselect.js",
+  "name": "bootstrap-multiselect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidstutz/bootstrap-multiselect.git"
+  },
+  "scripts": {
+    "test": "karma start tests/karma.conf.js --single-run"
+  },
+  "types": "./types/index.d.ts",
+  "version": "1.1.0"
+}

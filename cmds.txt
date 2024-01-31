@@ -1,0 +1,35 @@
+
+docker-compose build && docker-compose run  
+
+docker-compose build && docker-compose push     
+
+docker build -t {tag} .
+docker run -dp 8888:8888 api_gateway 
+
+docker tag api_gateway renatodc1194/api_gateway
+docker push renatodc1194/api_gateway
+
+#ngrok config add-authtoken 2APaG6NkrklUuJ1cVHvv3DNMCx9_7q71LrxHdavVfJAE7Zk4r
+
+docker run -d -p 4040:4040 –-net mooti_default –-name ngrok wernight/ngrok  ngrok http mooti-apigateway:8888
+ngrok authtoken 2APaG6NkrklUuJ1cVHvv3DNMCx9_7q71LrxHdavVfJAE7Zk4r
+--and restart container ngrok
+
+http://localhost:4040/api/tunnels
+
+https://api.telegram.org/bot{key}/getUpdates
+https://api.telegram.org/bot{key}/deleteWebhook
+
+taskkill /f /im ngrok.exe
+
+
+docker run {image}
+docker run -d {image}
+docker pull {image}
+docker images | head
+docker ps
+
+docker start container_id
+docker stop container_id
+docker logs container_id
+docker exec
